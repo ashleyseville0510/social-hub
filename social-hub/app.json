@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Social Hub",
+    "slug": "social-hub",
+    "version": "1.0.0",
+    "description": "A kinder little corner of the internet. Share moments, find your people, and keep in touch.",
+    "scheme": "socialhub",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "backgroundColor": "#F7F6F2",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "bundleIdentifier": "com.socialhub.community",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.socialhub.community",
+      "adaptiveIcon": {
+        "backgroundColor": "#F7F6F2",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "output": "single"
+    }
+  }
+}
